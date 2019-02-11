@@ -1,0 +1,1 @@
+Competitive programming helper library that employs a heavy use of metaprogramming and function delegates.
