@@ -12,3 +12,4 @@ codewars-util-test-*
 *.o
 *.obj
 *.lst
+codewars-util

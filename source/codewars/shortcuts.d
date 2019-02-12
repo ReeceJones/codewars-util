@@ -21,13 +21,14 @@ void loop(T, F)(const T n, F fn)
     }
 }
 
-/// read the line and return the uint value
+/// read the line and return the T value
 T dumbRead(T)()
     if (isScalarType!T)
 {
     return readln.stripRight.to!T;
 }
 
+/// read T[], ignores the first element because it indicates the elementsi in the array, but it isn't needed
 T dumbRead(T)()
     if (isArray!T)
 {
