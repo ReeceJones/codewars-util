@@ -6,5 +6,5 @@
 	],
 	"copyright": "Copyright © 2019, Reece Jones",
 	"name": "codewars-util",
-	"targetType": "executable"
+	"targetType": "library"
 }

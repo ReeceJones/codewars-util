@@ -32,7 +32,7 @@ T dumbRead(T)()
 T dumbRead(T)()
     if (isArray!T)
 {
-    mixin( "return readln.stripRight().split(\" \")[1..$].map!(a => a.to!( " ~ T.stringof[0..$-2] ~ " )).array;");
+    mixin( "return readln.stripRight().split(\" \").map!(a => a.to!( " ~ T.stringof[0..$-2] ~ " )).array;");
 }
 
 /// probably should never use but w/e
